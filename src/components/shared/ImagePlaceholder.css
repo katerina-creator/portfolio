@@ -3,9 +3,9 @@
 }
 
 .img-placeholder__box {
-  background: var(--color-surface);
-  border: 1.5px dashed var(--color-border);
-  border-radius: 8px;
+  background: linear-gradient(135deg, #f0f7ff 0%, #e0ecff 100%);
+  border: 1.5px dashed #93c5fd;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,7 +19,7 @@
 
 .img-placeholder__label {
   font-size: 0.8125rem;
-  color: var(--color-text-muted);
+  color: #3B82F6;
   text-align: center;
   max-width: 60ch;
   line-height: 1.5;

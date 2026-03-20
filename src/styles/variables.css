@@ -4,15 +4,15 @@
   --font-display: 'Sora', system-ui, sans-serif;
 
   /* Colors */
-  --color-bg: #ffffff;
+  --color-bg: #f5f7fa;
   --color-text: #1a1a1a;
   --color-text-muted: #6b6b6b;
-  --color-accent: #1d4ed8;
-  --color-accent-hover: #1e40af;
+  --color-accent: #3B82F6;
+  --color-accent-hover: #2563eb;
   --color-border: #e5e5e5;
-  --color-surface: #f8f8f8;
-  --color-tag-bg: #f0f4ff;
-  --color-tag-text: #1d4ed8;
+  --color-surface: #ffffff;
+  --color-tag-bg: #eff6ff;
+  --color-tag-text: #3B82F6;
 
   /* Spacing */
   --space-1: 0.25rem;

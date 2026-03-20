@@ -13,6 +13,8 @@ html {
 body {
   font-family: var(--font-sans);
   background-color: var(--color-bg);
+  background-image: radial-gradient(circle, #cbd5e1 1px, transparent 1px);
+  background-size: 28px 28px;
   color: var(--color-text);
   font-size: 1rem;
   line-height: 1.7;
