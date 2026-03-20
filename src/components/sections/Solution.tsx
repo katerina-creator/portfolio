@@ -1,6 +1,6 @@
 import { useLanguage } from '../../context/LanguageContext'
 import Section from '../layout/Section'
-import ImagePreview from '../shared/ImagePreview'
+import DiagramPreview from '../shared/DiagramPreview'
 import './Solution.css'
 
 export default function Solution() {
@@ -35,7 +35,7 @@ export default function Solution() {
           </div>
         </div>
 
-        <ImagePreview
+        <DiagramPreview
           src={dataFlow.diagram}
           alt={dataFlow.diagramCaption}
           caption={dataFlow.diagramCaption}

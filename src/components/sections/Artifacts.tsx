@@ -2,6 +2,7 @@ import { useLanguage } from '../../context/LanguageContext'
 import Section from '../layout/Section'
 import ImagePlaceholder from '../shared/ImagePlaceholder'
 import ImagePreview from '../shared/ImagePreview'
+import DiagramPreview from '../shared/DiagramPreview'
 import ArtifactsScreenshots from '../shared/ArtifactsScreenshots'
 import './Artifacts.css'
 
@@ -36,7 +37,7 @@ export default function Artifacts() {
       </div>
 
       <div className="artifacts__section">
-        <ImagePreview
+        <DiagramPreview
           src={artifacts.userFlow.image}
           alt="User interaction flow"
           caption={artifacts.userFlow.caption}

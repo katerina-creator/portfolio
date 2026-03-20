@@ -1,6 +1,6 @@
 import { useLanguage } from '../../context/LanguageContext'
 import Section from '../layout/Section'
-import ImagePreview from '../shared/ImagePreview'
+import DiagramPreview from '../shared/DiagramPreview'
 import './CaseOverview.css'
 
 export default function CaseOverview() {
@@ -21,11 +21,10 @@ export default function CaseOverview() {
           </dl>
         </div>
         <div className="overview__visual">
-          <ImagePreview
+          <DiagramPreview
             src={project.architecture.image}
             alt={project.architecture.title}
             caption={project.architecture.caption}
-            fit="contain"
           />
         </div>
       </div>
