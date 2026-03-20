@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekaterina Chistova - Author & Tech Leader</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="lang.js" defer></script>
+</head>
+
+<body>
+
+    <div class="layout-grid container">
+
+        <!-- SIDEBAR (Sticky) -->
+        <aside class="sidebar glass-panel">
+
+            <div class="avatar-container">
+                <div class="avatar-fallback">EC</div>
+                <img src="avatar.jpg" alt="Ekaterina Chistova" class="avatar-img">
+            </div>
+
+            <div class="profile-block">
+                <h1 class="name" data-i18n="hero_name">Ekaterina Chistova</h1>
+                <p class="role" data-i18n="hero_title">Project & Tech Leadership | EdTech | Software Development</p>
+                <p class="location" data-i18n="hero_loc_full">Batumi, Georgia</p>
+            </div>
+
+            <div class="lang-switch">
+                <button type="button" class="lang-btn active" data-lang="en">EN</button>
+                <span class="divider">|</span>
+                <button type="button" class="lang-btn" data-lang="ru">RU</button>
+            </div>
+
+            <nav class="sidebar-nav">
+                <a href="#about" data-i18n="nav_about">About</a>
+                <a href="#highlights" data-i18n="nav_highlights">Highlights</a>
+                <a href="#experience" data-i18n="nav_experience">Experience</a>
+                <a href="#skills" data-i18n="nav_skills">Skills</a>
+                <a href="#education" data-i18n="nav_edu">Education</a>
+            </nav>
+
+            <div class="contact-block">
+                <h3 class="subsection-title" data-i18n="contact_title">Contact</h3>
+                <p><a href="mailto:nextgen.coders.lab@gmail.com" class="email-link">nextgen.coders.lab@gmail.com</a></p>
+            </div>
+
+            <footer class="sidebar-footer">
+                <p>&copy; 2026 Ekaterina Chistova.</p>
+            </footer>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main class="content glass-panel">
+
+            <!-- About Section -->
+            <section id="about" class="section">
+                <h2 class="section-title" data-i18n="about_title">About Me</h2>
+                <p class="text-content" data-i18n="about_text">
+                    Experienced technical leader and project manager with a background in EdTech and software
+                    engineering. I build teams, launch educational and technical programs, and lead initiatives from
+                    planning to delivery. I combine structured management with hands-on technical understanding and a
+                    focus on process automation.
+                </p>
+            </section>
+
+            <hr>
+
+            <!-- Experience Highlights -->
+            <section id="highlights" class="section">
+                <h2 class="section-title" data-i18n="exp_curr_title">Highlights</h2>
+                <ul class="clean-list">
+                    <li data-i18n="exp_list_1">Opened and managed a fully operational education branch from scratch.
+                    </li>
+                    <li data-i18n="exp_list_2">Led and mentored high-performing teams of 15–20 professionals.</li>
+                    <li data-i18n="exp_list_3">Successfully launched and oversaw comprehensive software development
+                        programs.</li>
+                    <li data-i18n="exp_list_4">Designed and implemented solutions to automate critical business
+                        processes.</li>
+                </ul>
+            </section>
+
+            <hr>
+
+            <!-- Full Experience Section (Accordion) -->
+            <section id="experience" class="section">
+                <h2 class="section-title" data-i18n="work_title">Professional Experience</h2>
+                <div class="accordion-list">
+
+                    <!-- Job 1 -->
+                    <div class="accordion-item">
+                        <button type="button" class="accordion-header" aria-expanded="false">
+                            <div class="job-info">
+                                <span class="job-title" data-i18n="job_1_title">Branch Director</span>
+                                <span class="job-comp" data-i18n="job_1_comp">Computer Academy TOP (2021–2022)</span>
+                            </div>
+                            <span class="accordion-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="accordion-panel" hidden>
+                            <p class="job-desc" data-i18n="job_1_desc">Managed all branch operations, budgeting, and
+                                strategy.</p>
+                        </div>
+                    </div>
+
+                    <!-- Job 2 -->
+                    <div class="accordion-item">
+                        <button type="button" class="accordion-header" aria-expanded="false">
+                            <div class="job-info">
+                                <span class="job-title" data-i18n="job_2_title">Head of Department & Lecturer</span>
+                                <span class="job-comp" data-i18n="job_2_comp">IT-Cube (2018–2021)</span>
+                            </div>
+                            <span class="accordion-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="accordion-panel" hidden>
+                            <p class="job-desc" data-i18n="job_2_desc">Launched code education programs for students.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Job 3 -->
+                    <div class="accordion-item">
+                        <button type="button" class="accordion-header" aria-expanded="false">
+                            <div class="job-info">
+                                <span class="job-title" data-i18n="job_3_title">Head of Development Department</span>
+                                <span class="job-comp" data-i18n="job_3_comp">Domashnie Dengi (2009–2011)</span>
+                            </div>
+                            <span class="accordion-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="accordion-panel" hidden>
+                            <p class="job-desc" data-i18n="job_3_desc">Led the software development department and
+                                technical strategy.</p>
+                        </div>
+                    </div>
+
+                    <!-- Job 4 -->
+                    <div class="accordion-item">
+                        <button type="button" class="accordion-header" aria-expanded="false">
+                            <div class="job-info">
+                                <span class="job-title" data-i18n="job_4_title">Business Analyst</span>
+                                <span class="job-comp" data-i18n="job_4_comp">Realtime Consulting (2008–2009)</span>
+                            </div>
+                            <span class="accordion-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="accordion-panel" hidden>
+                            <p class="job-desc" data-i18n="job_4_desc">Created analytical reports for a sales
+                                department.</p>
+                        </div>
+                    </div>
+
+                    <!-- Job 5 -->
+                    <div class="accordion-item">
+                        <button type="button" class="accordion-header" aria-expanded="false">
+                            <div class="job-info">
+                                <span class="job-title" data-i18n="job_5_title">Software Engineer</span>
+                                <span class="job-comp" data-i18n="job_5_comp">Severstal-Infocom (2006–2008)</span>
+                            </div>
+                            <span class="accordion-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="accordion-panel" hidden>
+                            <p class="job-desc" data-i18n="job_5_desc">Software development and database administration.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <hr>
+
+            <!-- Technical Skills (Chips) -->
+            <section id="skills" class="section">
+                <h2 class="section-title" data-i18n="skills_title">Technical Skills & Tools</h2>
+                <div class="skills-wrapper">
+
+                    <div class="skill-category">
+                        <h3 class="skill-cat-title" data-i18n="skills_langs">Languages & Frameworks</h3>
+                        <div class="chips-container">
+                            <span class="chip">Java</span>
+                            <span class="chip">Android SDK</span>
+                            <span class="chip">Delphi</span>
+                            <span class="chip">PHP</span>
+                            <span class="chip">JavaScript</span>
+                            <span class="chip">HTML</span>
+                            <span class="chip">CSS</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="skill-cat-title" data-i18n="skills_db">Databases</h3>
+                        <div class="chips-container">
+                            <span class="chip">MySQL</span>
+                            <span class="chip">MS SQL</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="skill-cat-title" data-i18n="skills_vcs">Version Control</h3>
+                        <div class="chips-container">
+                            <span class="chip">Git</span>
+                            <span class="chip">SVN</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="skill-cat-title" data-i18n="skills_mgmt">Management & Tools</h3>
+                        <div class="chips-container">
+                            <span class="chip">Jira</span>
+                            <span class="chip">MS Project</span>
+                            <span class="chip">Visio</span>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <hr>
+
+            <!-- Education -->
+            <section id="education" class="section">
+                <h2 class="section-title" data-i18n="edu_title">Education & Training</h2>
+                <ul class="clean-list education-list">
+                    <li data-i18n="edu_uni_1">Cherepovets State University, Institute of IT — Applied Mathematics (2005)
+                    </li>
+                    <li data-i18n="edu_uni_2">Saint Petersburg Polytechnic University (branch, IMIT) — Economics,
+                        Finance & Credit (2008)</li>
+                </ul>
+                <div class="edu-training">
+                    <h3 class="subsection-title" data-i18n="edu_train_title">Training & Certifications</h3>
+                    <ul class="clean-list education-list">
+                        <li data-i18n="edu_cert_1">Java Professional — Otus (2020)</li>
+                        <li data-i18n="edu_cert_2">Java Mobile Development — Samsung IT School (2020)</li>
+                        <li data-i18n="edu_cert_3">HTML & CSS Expert — Bauman MSTU (2007)</li>
+                    </ul>
+                </div>
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>
