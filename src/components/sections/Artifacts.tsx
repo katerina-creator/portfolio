@@ -6,7 +6,12 @@ import DiagramPreview from '../shared/DiagramPreview'
 import ArtifactsScreenshots from '../shared/ArtifactsScreenshots'
 import './Artifacts.css'
 
-const RATIOS: Array<'16/9' | '4/3' | '3/2'> = ['16/9', '4/3', '3/2', '4/3']
+type ArtifactItem = {
+  type: string
+  image?: string
+  caption: string
+  alt: string
+}
 
 export default function Artifacts() {
   const { t } = useLanguage()
@@ -14,21 +19,21 @@ export default function Artifacts() {
   return (
     <Section id="artifacts" title={artifacts.sectionTitle} subtitle={artifacts.sectionSubtitle}>
       <div className="artifacts__grid">
-        {artifacts.items.map((artifact, i) => (
+        {(artifacts.items as ArtifactItem[]).map((artifact, i) => (
           <div key={i} className="artifacts__item">
             <span className="tag">{artifact.type}</span>
             <div style={{ marginTop: 'var(--space-4)' }}>
-              {'image' in artifact ? (
+              {artifact.image ? (
                 <ImagePreview
-                  src={artifact.image as string}
-                  alt={artifact.alt}
+                  src={artifact.image}
+                  alt={artifact.alt ?? artifact.caption}
                   caption={artifact.caption}
                 />
               ) : (
                 <ImagePlaceholder
                   caption={artifact.caption}
-                  alt={artifact.alt}
-                  ratio={RATIOS[i] ?? '16/9'}
+                  alt={artifact.alt ?? artifact.caption}
+                  ratio="16/9"
                 />
               )}
             </div>
