@@ -201,26 +201,16 @@ export const en = {
     sectionSubtitle: 'A selection of work products from the project.',
     items: [
       {
-        type: 'Jira Board',
+        type: 'Jira Board Roadmap',
         image: roadmap,
         caption: 'Product Roadmap (Jira Timeline)',
         alt: 'Product roadmap in Jira showing epics, sprints, and delivery timeline',
       },
       {
-        type: 'Process Diagram',
+        type: 'Jira Example Task',
         image: taskExample,
         caption: 'Task Specification (Acceptance Criteria)',
         alt: 'Task specification example with detailed acceptance criteria and requirements',
-      },
-      {
-        type: 'UI Wireframe',
-        caption: 'Exception review screen — the primary day-to-day interface for the compliance analyst',
-        alt: 'Low-fidelity wireframe of exception review table with filter panel, row detail drawer, and status sidebar',
-      },
-      {
-        type: 'Requirements Doc',
-        caption: 'Functional requirements excerpt — data validation rules section (47 rules documented)',
-        alt: 'Structured requirements table with ID, description, acceptance criteria, and regulatory reference columns',
       },
     ],
     userFlow: {
