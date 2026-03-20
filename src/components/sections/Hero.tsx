@@ -13,10 +13,11 @@ export default function Hero() {
           <p className="hero__subheadline">{hero.subheadline}</p>
           <Button href={hero.cta.href}>{hero.cta.label}</Button>
         </div>
-        <div className="hero__visual" aria-hidden="true">
-          <div className="hero__image-placeholder">
-            <span>{hero.imagePlaceholder}</span>
-          </div>
+        <div className="hero__visual">
+          <figure className="hero__figure">
+            <img src={hero.image} alt="System architecture diagram" className="hero__img" />
+            <figcaption className="hero__caption">{hero.imageCaption}</figcaption>
+          </figure>
         </div>
       </div>
     </div>

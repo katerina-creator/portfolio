@@ -1,3 +1,10 @@
+import dataPipeline from '../assets/diagrams/data-pipeline.png'
+import signalLifecycle from '../assets/diagrams/signal-lifecycle.png'
+import userInteraction from '../assets/diagrams/user-interaction.png'
+import dashboard from '../assets/images/dashboard.png'
+import signals from '../assets/images/signals.png'
+import details from '../assets/images/details.png'
+
 export const ru = {
   meta: {
     name: 'Ekaterina Chitova',
@@ -22,6 +29,8 @@ export const ru = {
       'От сырых данных Binance к торговым сигналам и стабильной работе системы.',
     cta: { label: 'Открыть кейс', href: '#overview' },
     imagePlaceholder: 'Обзор архитектуры платформы',
+    image: dataPipeline,
+    imageCaption: 'Архитектура системы: сбор данных, обработка, аналитика, хранение',
   },
 
   caseOverview: {
@@ -122,6 +131,8 @@ export const ru = {
         caption: 'До/после автоматизации',
         alt: 'Пайплайн данных',
       },
+      diagram: signalLifecycle,
+      diagramCaption: 'Жизненный цикл сигнала: обнаружение, оценка, отслеживание',
     },
 
     keyFixes: {
@@ -185,6 +196,17 @@ export const ru = {
       { type: 'Jira', caption: 'Backlog', alt: 'Jira board' },
       { type: 'Диаграммы', caption: 'BPMN', alt: 'Диаграммы' },
     ],
+    userFlow: {
+      image: userInteraction,
+      caption: 'Пользовательский сценарий: взаимодействие с API и обработка ошибок',
+    },
+    product: {
+      items: [
+        { image: dashboard, title: 'Дашборд', caption: 'Обзор рынка и состояние системы в реальном времени' },
+        { image: signals, title: 'Сигналы', caption: 'Автоматически сгенерированные торговые сигналы' },
+        { image: details, title: 'Детали сигнала', caption: 'Детальный просмотр с объяснением и метриками' },
+      ],
+    },
   },
 
   results: {

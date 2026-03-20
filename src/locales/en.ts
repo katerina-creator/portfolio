@@ -1,3 +1,10 @@
+import dataPipeline from '../assets/diagrams/data-pipeline.png'
+import signalLifecycle from '../assets/diagrams/signal-lifecycle.png'
+import userInteraction from '../assets/diagrams/user-interaction.png'
+import dashboard from '../assets/images/dashboard.png'
+import signals from '../assets/images/signals.png'
+import details from '../assets/images/details.png'
+
 export const en = {
   meta: {
     name: 'Ekaterina Chitova',
@@ -22,6 +29,8 @@ export const en = {
       'From raw Binance data to actionable trading signals and system stability.',
     cta: { label: 'Read the case study', href: '#overview' },
     imagePlaceholder: 'Platform architecture overview',
+    image: dataPipeline,
+    imageCaption: 'System architecture: ingestion, processing, analytics, storage',
   },
 
   caseOverview: {
@@ -125,6 +134,8 @@ export const en = {
         caption: 'Before vs. after: from manual tab monitoring to automated signal pipeline',
         alt: 'Side-by-side diagram: fragmented manual workflow vs. automated WebSocket-to-dashboard pipeline',
       },
+      diagram: signalLifecycle,
+      diagramCaption: 'Signal lifecycle: detection, evaluation, performance tracking',
     },
     keyFixes: {
       blockTitle: 'Key Fixes',
@@ -204,6 +215,17 @@ export const en = {
         alt: 'Structured requirements table with ID, description, acceptance criteria, and regulatory reference columns',
       },
     ],
+    userFlow: {
+      image: userInteraction,
+      caption: 'User interaction flow with API handling and error management',
+    },
+    product: {
+      items: [
+        { image: dashboard, title: 'Dashboard', caption: 'Real-time market overview and system state' },
+        { image: signals, title: 'Signals', caption: 'Automatically generated trading signals' },
+        { image: details, title: 'Signal details', caption: 'Detailed signal view with explanation and metrics' },
+      ],
+    },
   },
 
   results: {
