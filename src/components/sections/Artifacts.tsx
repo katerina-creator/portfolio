@@ -2,6 +2,7 @@ import { useLanguage } from '../../context/LanguageContext'
 import Section from '../layout/Section'
 import ImagePlaceholder from '../shared/ImagePlaceholder'
 import ImagePreview from '../shared/ImagePreview'
+import ArtifactsScreenshots from '../shared/ArtifactsScreenshots'
 import './Artifacts.css'
 
 const RATIOS: Array<'16/9' | '4/3' | '3/2'> = ['16/9', '4/3', '3/2', '4/3']
@@ -46,6 +47,8 @@ export default function Artifacts() {
           ))}
         </div>
       </div>
+
+      <ArtifactsScreenshots />
     </Section>
   )
 }
