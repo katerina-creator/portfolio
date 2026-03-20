@@ -19,6 +19,7 @@ export default function Hero() {
             src={hero.image}
             alt="System architecture diagram"
             caption={hero.imageCaption}
+            fit="contain"
           />
         </div>
       </div>
