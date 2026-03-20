@@ -228,22 +228,21 @@ export const en = {
 
   results: {
     sectionTitle: 'Results',
-    headline: 'The platform monitors 50+ assets in real time and generates validated trading signals without manual input.',
-    quantitative: [
-      { value: '50+', label: 'Assets monitored', detail: 'Automated coverage, up from ~5 tracked manually' },
-      { value: '<1s', label: 'Data latency', detail: 'Real-time WebSocket streams vs. manual refresh' },
-      { value: '3 hrs', label: 'Daily time saved', detail: 'Previously spent on manual market monitoring' },
-      { value: '100%', label: 'Signal auditability', detail: 'Every signal logged with timestamp and parameters' },
+    subtitle: 'Real-time crypto market analytics platform',
+    metrics: [
+      { value: '1400+', label: 'USDT pairs monitored' },
+      { value: '50+', label: 'Active signals simultaneously' },
     ],
-    teamSaidHeading: 'What changed',
-    qualitative: [
-      'Trading decisions are now based on defined, reproducible signal rules rather than gut feel',
-      'The system runs continuously — signals are caught even outside active monitoring hours',
-      'Historical data storage enables backtesting of new signal ideas against past market conditions',
-      'The dashboard gives immediate visibility into system health and active signals without manual checks',
+    items: [
+      'Monitoring 1400+ USDT trading pairs in real time',
+      'Automated generation and filtering of trading signals',
+      'Prioritization system (~50+ active signals simultaneously)',
+      'Signal feed with lifecycle tracking and history',
+      'Detailed signal view: context, metrics, and triggers',
+      'Signal quality evaluation across strategies',
+      'Market analytics: trends, regimes, volatility, momentum',
+      'End-to-end pipeline control: ingestion → processing → signals → analytics',
     ],
-    timeToValueHeading: 'Time to value',
-    timeToValue: 'First automated signals generated at week 10. Full MVP live at week 12. System has been running continuously since launch with no data loss incidents.',
   },
 
   howIWork: {

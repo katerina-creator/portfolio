@@ -7,33 +7,22 @@ export default function Results() {
   const { results } = t
   return (
     <Section id="results" title={results.sectionTitle} surface>
-      <p className="results__headline">{results.headline}</p>
+      <p className="results__subtitle">{results.subtitle}</p>
 
       <div className="results__metrics">
-        {results.quantitative.map((r) => (
-          <div key={r.label} className="results__metric">
-            <span className="results__metric-value">{r.value}</span>
-            <span className="results__metric-label">{r.label}</span>
-            <span className="results__metric-detail">{r.detail}</span>
+        {results.metrics.map((m) => (
+          <div key={m.label} className="results__metric">
+            <span className="results__metric-value">{m.value}</span>
+            <span className="results__metric-label">{m.label}</span>
           </div>
         ))}
       </div>
 
-      <div className="results__qualitative">
-        <h3 className="results__subheading">{results.teamSaidHeading}</h3>
-        <div className="results__quotes">
-          {results.qualitative.map((q, i) => (
-            <p key={i} className={q.startsWith('"') || q.startsWith('«') ? 'results__quote' : 'results__note'}>
-              {q}
-            </p>
-          ))}
-        </div>
-      </div>
-
-      <div className="results__ttv">
-        <h3 className="results__subheading">{results.timeToValueHeading}</h3>
-        <p className="results__ttv-text">{results.timeToValue}</p>
-      </div>
+      <ul className="results__list">
+        {results.items.map((item, i) => (
+          <li key={i} className="results__list-item">{item}</li>
+        ))}
+      </ul>
     </Section>
   )
 }
