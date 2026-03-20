@@ -35,19 +35,6 @@ export default function Artifacts() {
         />
       </div>
 
-      <div className="artifacts__section">
-        <div className="artifacts__product-grid">
-          {artifacts.product.items.map((item, i) => (
-            <ImagePreview
-              key={i}
-              src={item.image}
-              alt={item.title}
-              caption={item.caption}
-            />
-          ))}
-        </div>
-      </div>
-
       <ArtifactsScreenshots />
     </Section>
   )

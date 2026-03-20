@@ -39,7 +39,7 @@ export const en = {
       'A system for collecting, processing, and analyzing real-time and historical market data from Binance to identify trading opportunities and monitor selected assets.',
     facts: [
       { label: 'Product', value: 'Crypto Market Analytics Platform' },
-      { label: 'Duration', value: '3 months (Q3–Q4 2024)' },
+      { label: 'Duration', value: '3 months (03–04 2025)' },
       { label: 'My Role', value: 'Product Manager / Business Analyst' },
       { label: 'Team Size', value: '1 PM, 2 backend engineers, 1 data engineer' },
       { label: 'Outcome', value: 'Automated signal generation across 50+ assets' },
@@ -278,7 +278,7 @@ export const en = {
     body: "I'm currently exploring senior BA and product manager roles, particularly in fintech, insurtech, or ops-heavy domains. If this case study resonates, I'd like to talk.",
     email: 'nextgen.coders.lab@gmail.com',
     linkedin: 'www.linkedin.com/in/ekaterina-chistova-9573532bb',
-    availability: 'Available from May 2026',
+    availability: 'Available from April 2026',
     emailCta: 'Email me',
     linkedinCta: 'LinkedIn',
   },

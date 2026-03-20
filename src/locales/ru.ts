@@ -40,7 +40,7 @@ export const ru = {
       'Система для сбора, обработки и анализа рыночных данных Binance (в реальном времени и исторических) для поиска торговых возможностей и мониторинга активов.',
     facts: [
       { label: 'Продукт', value: 'Платформа анализа крипторынка' },
-      { label: 'Длительность', value: '3 месяца (Q3–Q4 2024)' },
+      { label: 'Длительность', value: '3 месяца (03–04 2025)' },
       { label: 'Моя роль', value: 'Product Manager / Business Analyst' },
       { label: 'Команда', value: '1 PM, 2 backend-инженера, 1 data engineer' },
       { label: 'Результат', value: 'Автоматическая генерация сигналов по 50+ активам' },
@@ -259,7 +259,7 @@ export const ru = {
     body: 'Готова к ролям PM / BA',
     email: 'nextgen.coders.lab@gmail.com',
     linkedin: 'www.linkedin.com/in/ekaterina-chistova-9573532bb',
-    availability: 'С мая 2026',
+    availability: 'С апреля 2026',
     emailCta: 'Написать',
     linkedinCta: 'LinkedIn',
   },
