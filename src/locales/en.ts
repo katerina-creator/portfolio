@@ -269,7 +269,7 @@ export const en = {
       },
     ],
     toolsHeading: 'Tools I use',
-    tools: ['Jira', 'Confluence', 'Miro', 'SQL (read-level)', 'Figma (wireframing)', 'Lucidchart'],
+    tools: ['VS Code', 'PostgreSQL', 'Jira', 'Camunda'],
   },
 
   contact: {

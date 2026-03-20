@@ -259,7 +259,7 @@ export const ru = {
       },
     ],
     toolsHeading: 'Инструменты',
-    tools: ['Jira', 'Miro', 'SQL'],
+    tools: ['VS Code', 'PostgreSQL', 'Jira', 'Camunda'],
   },
 
   contact: {

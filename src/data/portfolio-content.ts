@@ -224,7 +224,7 @@ export const content = {
         description: 'Shipping is not done. I track outcomes against the original success metrics and revisit assumptions. If the numbers don\'t move, I want to know why — and what we do next.',
       },
     ],
-    tools: ['Jira', 'Confluence', 'Miro', 'SQL (read-level)', 'Figma (wireframing)', 'Lucidchart'],
+    tools: ['VS Code', 'PostgreSQL', 'Jira', 'Camunda'],
   },
 
   // ─── Contact ───────────────────────────────────────────────────────────────
