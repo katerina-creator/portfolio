@@ -200,8 +200,8 @@ export const ru = {
     sectionTitle: 'Артефакты',
     sectionSubtitle: 'Примеры работы',
     items: [
-      { type: 'Jira', image: roadmap, caption: 'Product Roadmap (Jira Timeline)', alt: 'Роадмап продукта в Jira: эпики, спринты и сроки доставки' },
-      { type: 'Диаграммы', image: taskExample, caption: 'Task Specification (Acceptance Criteria)', alt: 'Пример спецификации задачи с критериями приёмки' },
+      { type: 'Jira: Хронология', image: roadmap, caption: 'Product Roadmap (Jira Timeline)', alt: 'Роадмап продукта в Jira: эпики, спринты и сроки доставки' },
+      { type: 'Jira: Пример задачи', image: taskExample, caption: 'Task Specification (Acceptance Criteria)', alt: 'Пример спецификации задачи с критериями приёмки' },
     ],
     userFlow: {
       image: userInteraction,
@@ -264,7 +264,7 @@ export const ru = {
     headline: 'Открыта к предложениям',
     body: 'Готова к ролям PM / BA',
     email: 'nextgen.coders.lab@gmail.com',
-    linkedin: 'www.linkedin.com/in/ekaterina-chistova-9573532bb',
+    linkedin: 'https://www.linkedin.com/in/ekaterina-chistova-9573532bb',
     availability: 'С апреля 2026',
     emailCta: 'Написать',
     linkedinCta: 'LinkedIn',

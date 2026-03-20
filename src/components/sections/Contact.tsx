@@ -13,11 +13,8 @@ export default function Contact() {
         <p className="contact__availability">{contact.availability}</p>
 
         <div className="contact__links">
-          <a href={`mailto:${contact.email}`} className="contact__link contact__link--primary">
-            {contact.emailCta}
-          </a>
           <a
-            href={contact.linkedin}
+            href="https://www.linkedin.com/in/ekaterina-chistova-9573532bb"
             target="_blank"
             rel="noopener noreferrer"
             className="contact__link contact__link--outline"

@@ -275,7 +275,7 @@ export const en = {
     headline: 'Open to PM / BA opportunities',
     body: "I'm currently exploring senior BA and product manager roles, particularly in fintech, insurtech, or ops-heavy domains. If this case study resonates, I'd like to talk.",
     email: 'nextgen.coders.lab@gmail.com',
-    linkedin: 'www.linkedin.com/in/ekaterina-chistova-9573532bb',
+    linkedin: 'https://www.linkedin.com/in/ekaterina-chistova-9573532bb',
     availability: 'Available from April 2026',
     emailCta: 'Email me',
     linkedinCta: 'LinkedIn',
