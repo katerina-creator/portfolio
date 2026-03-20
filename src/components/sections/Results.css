@@ -6,10 +6,16 @@
 }
 
 .results__metrics {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: var(--space-4);
-  margin-bottom: var(--space-10);
-  flex-wrap: wrap;
+  margin-bottom: 0;
+}
+
+.results__divider {
+  height: 1px;
+  background: var(--color-border);
+  margin: var(--space-8) 0;
 }
 
 .results__metric {
@@ -70,10 +76,9 @@
     grid-template-columns: 1fr;
   }
   .results__metrics {
-    flex-direction: column;
+    grid-template-columns: 1fr 1fr;
   }
 }
-
 
 @media (max-width: 720px) {
   .results__metrics {

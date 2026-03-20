@@ -18,6 +18,8 @@ export default function Results() {
         ))}
       </div>
 
+      <div className="results__divider" />
+
       <ul className="results__list">
         {results.items.map((item, i) => (
           <li key={i} className="results__list-item">{item}</li>

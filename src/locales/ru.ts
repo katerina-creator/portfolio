@@ -220,8 +220,10 @@ export const ru = {
     sectionTitle: 'Результаты',
     subtitle: 'Платформа анализа крипторынка в реальном времени',
     metrics: [
-      { value: '1400+', label: 'торговых пар USDT' },
-      { value: '50+', label: 'активных сигналов одновременно' },
+      { value: '1400+', label: 'Торговых пар' },
+      { value: '50+', label: 'Активных сигналов' },
+      { value: '<1с', label: 'Задержка' },
+      { value: 'End-to-end', label: 'Pipeline' },
     ],
     items: [
       'Мониторинг 1400+ торговых пар к USDT в реальном времени',

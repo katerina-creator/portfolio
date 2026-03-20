@@ -230,8 +230,10 @@ export const en = {
     sectionTitle: 'Results',
     subtitle: 'Real-time crypto market analytics platform',
     metrics: [
-      { value: '1400+', label: 'USDT pairs monitored' },
-      { value: '50+', label: 'Active signals simultaneously' },
+      { value: '1400+', label: 'USDT pairs' },
+      { value: '50+', label: 'Active signals' },
+      { value: '<1s', label: 'Update latency' },
+      { value: 'End-to-end', label: 'Pipeline' },
     ],
     items: [
       'Monitoring 1400+ USDT trading pairs in real time',
