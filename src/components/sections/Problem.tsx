@@ -1,6 +1,5 @@
 import { useLanguage } from '../../context/LanguageContext'
 import Section from '../layout/Section'
-import ImagePlaceholder from '../shared/ImagePlaceholder'
 import './Problem.css'
 
 export default function Problem() {
@@ -30,14 +29,6 @@ export default function Problem() {
               <li key={point} className="problem__list-item">{point}</li>
             ))}
           </ul>
-
-          <div style={{ marginTop: 'var(--space-8)' }}>
-            <ImagePlaceholder
-              caption={problem.imagePlaceholder.caption}
-              alt={problem.imagePlaceholder.alt}
-              ratio="16/9"
-            />
-          </div>
         </div>
       </div>
     </Section>

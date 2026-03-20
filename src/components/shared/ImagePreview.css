@@ -20,7 +20,7 @@
 
 .preview-card:hover {
   box-shadow: 0 6px 24px rgba(59, 130, 246, 0.15);
-  transform: translateY(-2px);
+  transform: translateY(-2px) scale(1.02);
 }
 
 .preview-card img {
@@ -28,6 +28,11 @@
   height: 100%;
   object-fit: cover;
   display: block;
+}
+
+.preview-card--contain img {
+  object-fit: contain;
+  padding: 8px;
 }
 
 .preview-card__zoom-hint {

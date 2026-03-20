@@ -33,6 +33,14 @@ export const en = {
     imageCaption: 'System architecture: ingestion, processing, analytics, storage',
   },
 
+  project: {
+    architecture: {
+      title: 'System Architecture',
+      caption: 'Data flow: ingestion (Binance API/WebSocket), processing, signal generation, and UI delivery',
+      image: dataPipeline,
+    },
+  },
+
   caseOverview: {
     sectionTitle: 'Crypto Market Analytics Platform',
     context:
@@ -44,10 +52,6 @@ export const en = {
       { label: 'Team Size', value: '1 PM, 2 backend engineers, 1 data engineer' },
       { label: 'Outcome', value: 'Automated signal generation across 50+ assets' },
     ],
-    imagePlaceholder: {
-      caption: 'High-level system architecture — data ingestion, signal engine, and monitoring dashboard',
-      alt: 'Architecture diagram showing Binance API feeds flowing into a processing pipeline and dashboard',
-    },
   },
 
   problem: {

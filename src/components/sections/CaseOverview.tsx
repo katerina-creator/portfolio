@@ -1,11 +1,11 @@
 import { useLanguage } from '../../context/LanguageContext'
 import Section from '../layout/Section'
-import ImagePlaceholder from '../shared/ImagePlaceholder'
+import ImagePreview from '../shared/ImagePreview'
 import './CaseOverview.css'
 
 export default function CaseOverview() {
   const { t } = useLanguage()
-  const { caseOverview } = t
+  const { caseOverview, project } = t
   return (
     <Section id="overview" title={caseOverview.sectionTitle}>
       <div className="overview__grid">
@@ -21,10 +21,11 @@ export default function CaseOverview() {
           </dl>
         </div>
         <div className="overview__visual">
-          <ImagePlaceholder
-            caption={caseOverview.imagePlaceholder.caption}
-            alt={caseOverview.imagePlaceholder.alt}
-            ratio="4/3"
+          <ImagePreview
+            src={project.architecture.image}
+            alt={project.architecture.title}
+            caption={project.architecture.caption}
+            fit="contain"
           />
         </div>
       </div>

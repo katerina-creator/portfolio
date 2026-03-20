@@ -34,6 +34,14 @@ export const ru = {
     imageCaption: 'Архитектура системы: сбор данных, обработка, аналитика, хранение',
   },
 
+  project: {
+    architecture: {
+      title: 'Архитектура системы',
+      caption: 'Поток данных: сбор (Binance API/WebSocket), обработка, генерация сигналов и отображение в интерфейсе',
+      image: dataPipeline,
+    },
+  },
+
   caseOverview: {
     sectionTitle: 'Платформа анализа крипторынка',
     context:
@@ -45,10 +53,6 @@ export const ru = {
       { label: 'Команда', value: '1 PM, 2 backend-инженера, 1 data engineer' },
       { label: 'Результат', value: 'Автоматическая генерация сигналов по 50+ активам' },
     ],
-    imagePlaceholder: {
-      caption: 'Высокоуровневая архитектура системы: ingestion, обработка и дашборд',
-      alt: 'Диаграмма архитектуры системы',
-    },
   },
 
   problem: {

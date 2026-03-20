@@ -5,9 +5,10 @@ type Props = {
   src: string
   alt?: string
   caption?: string
+  fit?: 'cover' | 'contain'
 }
 
-export default function ImagePreview({ src, alt = '', caption }: Props) {
+export default function ImagePreview({ src, alt = '', caption, fit = 'cover' }: Props) {
   const [open, setOpen] = useState(false)
   const [scale, setScale] = useState(1)
 
@@ -32,7 +33,7 @@ export default function ImagePreview({ src, alt = '', caption }: Props) {
     <>
       <figure className="preview-card-wrapper">
         <div
-          className="preview-card"
+          className={`preview-card${fit === 'contain' ? ' preview-card--contain' : ''}`}
           onClick={() => setOpen(true)}
           role="button"
           tabIndex={0}
