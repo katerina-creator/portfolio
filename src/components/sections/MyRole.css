@@ -1,0 +1,130 @@
+.role__summary {
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  max-width: 720px;
+  margin-bottom: var(--space-10);
+}
+
+.role__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-12);
+  align-items: start;
+  margin-top: var(--space-8);
+}
+
+.role__subheading {
+  font-size: 1rem;
+  margin-bottom: var(--space-4);
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+
+.role__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.role__list-item {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  padding-left: 1.25rem;
+  position: relative;
+}
+
+.role__list-item::before {
+  content: '–';
+  position: absolute;
+  left: 0;
+  color: var(--color-text-muted);
+}
+
+.role__stakeholders {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.role__stakeholder {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-3) 0;
+  border-bottom: 1px solid var(--color-border);
+  gap: var(--space-1);
+}
+
+.role__stakeholder:first-child {
+  border-top: 1px solid var(--color-border);
+}
+
+.role__stakeholder-name {
+  font-weight: 500;
+  font-size: 0.9375rem;
+}
+
+.role__stakeholder-note {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+}
+
+.role__timeline {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.role__timeline-item {
+  display: flex;
+  gap: var(--space-4);
+  align-items: flex-start;
+}
+
+.role__timeline-marker {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--color-tag-bg);
+  color: var(--color-accent);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.role__timeline-body {
+  flex: 1;
+}
+
+.role__timeline-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--space-1);
+}
+
+.role__timeline-phase {
+  font-weight: 500;
+  font-size: 0.9375rem;
+}
+
+.role__timeline-duration {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+}
+
+.role__timeline-activity {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+
+@media (max-width: 720px) {
+  .role__grid {
+    grid-template-columns: 1fr;
+  }
+}

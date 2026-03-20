@@ -1,0 +1,30 @@
+:root {
+  --max-width: 1000px;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Sora', system-ui, sans-serif;
+
+  /* Colors */
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-text-muted: #6b6b6b;
+  --color-accent: #1d4ed8;
+  --color-accent-hover: #1e40af;
+  --color-border: #e5e5e5;
+  --color-surface: #f8f8f8;
+  --color-tag-bg: #f0f4ff;
+  --color-tag-text: #1d4ed8;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-24: 6rem;
+
+  /* Section spacing */
+  --section-padding: 5rem 1.5rem;
+}

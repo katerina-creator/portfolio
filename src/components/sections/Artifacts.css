@@ -1,0 +1,16 @@
+.artifacts__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-10);
+}
+
+.artifacts__item {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 640px) {
+  .artifacts__grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,34 @@
+.img-placeholder {
+  margin: 0;
+}
+
+.img-placeholder__box {
+  background: var(--color-surface);
+  border: 1.5px dashed var(--color-border);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-4);
+  width: 100%;
+}
+
+.img-placeholder__box--16-9 { aspect-ratio: 16 / 9; }
+.img-placeholder__box--4-3  { aspect-ratio: 4 / 3; }
+.img-placeholder__box--3-2  { aspect-ratio: 3 / 2; }
+
+.img-placeholder__label {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  text-align: center;
+  max-width: 60ch;
+  line-height: 1.5;
+}
+
+.img-placeholder__caption {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  margin-top: var(--space-3);
+  font-style: italic;
+  line-height: 1.5;
+}

@@ -1,0 +1,22 @@
+.section {
+  padding: var(--section-padding);
+}
+
+.section--surface {
+  background: var(--color-surface);
+}
+
+.section__header {
+  margin-bottom: var(--space-12);
+}
+
+.section__title {
+  font-size: 1.875rem;
+  margin-bottom: var(--space-3);
+}
+
+.section__subtitle {
+  color: var(--color-text-muted);
+  font-size: 1.0625rem;
+  max-width: 640px;
+}
