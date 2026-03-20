@@ -1,5 +1,6 @@
 import { useLanguage } from '../../context/LanguageContext'
 import Section from '../layout/Section'
+import ImagePreview from '../shared/ImagePreview'
 import './Solution.css'
 
 export default function Solution() {
@@ -34,10 +35,11 @@ export default function Solution() {
           </div>
         </div>
 
-        <figure className="solution__figure">
-          <img src={dataFlow.diagram} alt={dataFlow.diagramCaption} className="solution__img" />
-          <figcaption className="solution__caption">{dataFlow.diagramCaption}</figcaption>
-        </figure>
+        <ImagePreview
+          src={dataFlow.diagram}
+          alt={dataFlow.diagramCaption}
+          caption={dataFlow.diagramCaption}
+        />
       </div>
 
       {/* ── Key Fixes ─────────────────────────────────────────────── */}

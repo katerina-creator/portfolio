@@ -1,5 +1,6 @@
 import { useLanguage } from '../../context/LanguageContext'
 import Button from '../shared/Button'
+import ImagePreview from '../shared/ImagePreview'
 import './Hero.css'
 
 export default function Hero() {
@@ -14,10 +15,11 @@ export default function Hero() {
           <Button href={hero.cta.href}>{hero.cta.label}</Button>
         </div>
         <div className="hero__visual">
-          <figure className="hero__figure">
-            <img src={hero.image} alt="System architecture diagram" className="hero__img" />
-            <figcaption className="hero__caption">{hero.imageCaption}</figcaption>
-          </figure>
+          <ImagePreview
+            src={hero.image}
+            alt="System architecture diagram"
+            caption={hero.imageCaption}
+          />
         </div>
       </div>
     </div>
