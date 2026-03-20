@@ -1,6 +1,8 @@
 import dataPipeline from '../assets/diagrams/data-pipeline.png'
 import signalLifecycle from '../assets/diagrams/signal-lifecycle.png'
 import userInteraction from '../assets/diagrams/user-interaction.png'
+import roadmap from '../assets/diagrams/roadmap.png'
+import taskExample from '../assets/diagrams/task_example.png'
 import dashboard from '../assets/images/6_dashboard.png'
 import signals from '../assets/images/2_signals.png'
 import details from '../assets/images/3_details.png'
@@ -47,7 +49,7 @@ export const en = {
       'A system for collecting, processing, and analyzing real-time and historical market data from Binance to identify trading opportunities and monitor selected assets.',
     facts: [
       { label: 'Product', value: 'Crypto Market Analytics Platform' },
-      { label: 'Duration', value: '3 months (03–04 2025)' },
+      { label: 'Duration', value: '3 months (04–03 2026)' },
       { label: 'My Role', value: 'Product Manager / Business Analyst' },
       { label: 'Team Size', value: '1 PM, 2 backend engineers, 1 data engineer' },
       { label: 'Outcome', value: 'Automated signal generation across 50+ assets' },
@@ -200,13 +202,15 @@ export const en = {
     items: [
       {
         type: 'Jira Board',
-        caption: 'Sprint board during delivery phase — 4 epics, 63 stories across 8 sprints',
-        alt: 'Jira sprint board showing epics: Data Pipeline, Validation Engine, Approval Workflow, Reporting UI',
+        image: roadmap,
+        caption: 'Product Roadmap (Jira Timeline)',
+        alt: 'Product roadmap in Jira showing epics, sprints, and delivery timeline',
       },
       {
         type: 'Process Diagram',
-        caption: 'As-is / to-be process map produced in discovery and validated with stakeholders in workshop 3',
-        alt: 'Two swimlane diagrams showing before and after reporting process with annotated pain points',
+        image: taskExample,
+        caption: 'Task Specification (Acceptance Criteria)',
+        alt: 'Task specification example with detailed acceptance criteria and requirements',
       },
       {
         type: 'UI Wireframe',

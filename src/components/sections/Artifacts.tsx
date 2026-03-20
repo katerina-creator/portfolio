@@ -17,11 +17,19 @@ export default function Artifacts() {
           <div key={i} className="artifacts__item">
             <span className="tag">{artifact.type}</span>
             <div style={{ marginTop: 'var(--space-4)' }}>
-              <ImagePlaceholder
-                caption={artifact.caption}
-                alt={artifact.alt}
-                ratio={RATIOS[i] ?? '16/9'}
-              />
+              {'image' in artifact ? (
+                <ImagePreview
+                  src={artifact.image as string}
+                  alt={artifact.alt}
+                  caption={artifact.caption}
+                />
+              ) : (
+                <ImagePlaceholder
+                  caption={artifact.caption}
+                  alt={artifact.alt}
+                  ratio={RATIOS[i] ?? '16/9'}
+                />
+              )}
             </div>
           </div>
         ))}

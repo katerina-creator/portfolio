@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import './ImagePreview.css'
 
 type Props = {
@@ -11,6 +11,7 @@ type Props = {
 export default function ImagePreview({ src, alt = '', caption, fit = 'cover' }: Props) {
   const [open, setOpen] = useState(false)
   const [scale, setScale] = useState(1)
+  const closeRef = useRef<HTMLButtonElement>(null)
 
   const close = useCallback(() => {
     setOpen(false)
@@ -19,6 +20,7 @@ export default function ImagePreview({ src, alt = '', caption, fit = 'cover' }: 
 
   useEffect(() => {
     if (!open) return
+    closeRef.current?.focus()
     const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') close() }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
@@ -60,7 +62,7 @@ export default function ImagePreview({ src, alt = '', caption, fit = 'cover' }: 
           aria-label="Image viewer"
         >
           <div className="modal-content" onClick={(e) => e.stopPropagation()} onWheel={handleWheel}>
-            <button className="modal-close" onClick={close} aria-label="Close">✕</button>
+            <button className="modal-close" ref={closeRef} onClick={close} aria-label="Close image viewer">✕</button>
             <img
               src={src}
               alt={alt}

@@ -1,6 +1,8 @@
 import dataPipeline from '../assets/diagrams/data-pipeline.png'
 import signalLifecycle from '../assets/diagrams/signal-lifecycle.png'
 import userInteraction from '../assets/diagrams/user-interaction.png'
+import roadmap from '../assets/diagrams/roadmap.png'
+import taskExample from '../assets/diagrams/task_example.png'
 import dashboard from '../assets/images/6_dashboard.png'
 import signals from '../assets/images/2_signals.png'
 import details from '../assets/images/3_details.png'
@@ -48,7 +50,7 @@ export const ru = {
       'Система для сбора, обработки и анализа рыночных данных Binance (в реальном времени и исторических) для поиска торговых возможностей и мониторинга активов.',
     facts: [
       { label: 'Продукт', value: 'Платформа анализа крипторынка' },
-      { label: 'Длительность', value: '3 месяца (03–04 2025)' },
+      { label: 'Длительность', value: '3 месяца (04–03 2026)' },
       { label: 'Моя роль', value: 'Product Manager / Business Analyst' },
       { label: 'Команда', value: '1 PM, 2 backend-инженера, 1 data engineer' },
       { label: 'Результат', value: 'Автоматическая генерация сигналов по 50+ активам' },
@@ -198,8 +200,8 @@ export const ru = {
     sectionTitle: 'Артефакты',
     sectionSubtitle: 'Примеры работы',
     items: [
-      { type: 'Jira', caption: 'Backlog', alt: 'Jira board' },
-      { type: 'Диаграммы', caption: 'BPMN', alt: 'Диаграммы' },
+      { type: 'Jira', image: roadmap, caption: 'Product Roadmap (Jira Timeline)', alt: 'Роадмап продукта в Jira: эпики, спринты и сроки доставки' },
+      { type: 'Диаграммы', image: taskExample, caption: 'Task Specification (Acceptance Criteria)', alt: 'Пример спецификации задачи с критериями приёмки' },
     ],
     userFlow: {
       image: userInteraction,
