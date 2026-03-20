@@ -51,7 +51,7 @@ export const en = {
       { label: 'Product', value: 'Crypto Market Analytics Platform' },
       { label: 'Duration', value: '3 months (04–03 2026)' },
       { label: 'My Role', value: 'Product Manager / Business Analyst' },
-      { label: 'Team Size', value: '1 PM, 2 backend engineers, 1 data engineer' },
+      { label: 'Team Size', value: 'Solo (end-to-end: product management, system design, and implementation)' },
       { label: 'Outcome', value: 'Automated signal generation across 50+ assets' },
     ],
   },

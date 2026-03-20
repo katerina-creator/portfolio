@@ -52,7 +52,7 @@ export const ru = {
       { label: 'Продукт', value: 'Платформа анализа крипторынка' },
       { label: 'Длительность', value: '3 месяца (04–03 2026)' },
       { label: 'Моя роль', value: 'Product Manager / Business Analyst' },
-      { label: 'Команда', value: '1 PM, 2 backend-инженера, 1 data engineer' },
+      { label: 'Команда', value: 'Solo (end-to-end: управление продуктом, проектирование системы и реализация)' },
       { label: 'Результат', value: 'Автоматическая генерация сигналов по 50+ активам' },
     ],
   },
