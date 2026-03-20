@@ -1,9 +1,9 @@
 import dataPipeline from '../assets/diagrams/data-pipeline.png'
 import signalLifecycle from '../assets/diagrams/signal-lifecycle.png'
 import userInteraction from '../assets/diagrams/user-interaction.png'
-import dashboard from '../assets/images/dashboard.png'
-import signals from '../assets/images/signals.png'
-import details from '../assets/images/details.png'
+import dashboard from '../assets/images/6_dashboard.png'
+import signals from '../assets/images/2_signals.png'
+import details from '../assets/images/3_details.png'
 
 export const en = {
   meta: {
