@@ -10,7 +10,7 @@ import details from '../assets/images/3_details.png'
 
 export const ru = {
   meta: {
-    name: 'Ekaterina Chitova',
+    name: 'Ekaterina Chistova',
     tagline: 'Product Manager · Business Analyst',
   },
 
